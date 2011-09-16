@@ -1,0 +1,49 @@
+/*********************************************************************************
+ *
+ * Copyright (c) 2010-2011, Sonatype, Inc.
+ *
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors: 
+ *
+ *    Sonatype, Inc.
+ *     
+ ********************************************************************************/
+ 
+/* Make visible for debugging in browser. */
+/*@external cellTable*;*/
+
+/*
+ * Modified css classes for CellTable.
+ * Defaults are found in com/google/gwt/user/cellview/client/CellTable.css
+ */
+.cellTableWidget {
+  width: 100%;
+}
+.cellTableHeader {
+  text-shadow: none;
+}
+
+/* Remove the borders around the selected cell. */
+.cellTableKeyboardSelectedRow {
+  border: selectionBorderWidth solid #ffc;
+}
+
+.cellTableKeyboardSelectedRowCell {
+  border: selectionBorderWidth solid #ffc;
+}
+
+.cellTableSelectedRow {
+  border: selectionBorderWidth solid #628cd5;
+}
+
+.cellTableSelectedRowCell {
+  border: selectionBorderWidth solid #628cd5;
+}
+
+.cellTableKeyboardSelectedCell {
+  border: selectionBorderWidth solid none #d7dde8;
+}
